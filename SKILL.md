@@ -1,6 +1,6 @@
 ---
 name: hailuo-h3-drama
-description: 根据任意场景需求，通过要素追问和关键词素材检索编写 MiniMax Hailuo H3 视频提示词；支持场景、动作、运镜、声音、连续性设计，以及用户示例素材的整理与扩充。
+description: 根据任意场景需求，通过要素追问和关键词素材检索编写 MiniMax Hailuo H3 视频提示词；支持场景、动作、运镜、灯光、相机镜头参考、声音与连续性设计，以及示例素材的整理扩充。
 ---
 
 # H3 通用场景提示词导演
@@ -21,6 +21,7 @@ description: 根据任意场景需求，通过要素追问和关键词素材检�
 3. 阅读 [来源与边界](references/evidence.md)。经验建议不是保证；不要声称已验证本地 8GB 部署、嘴型精确同步或尾帧必达。
 4. 按 [结构与流程](references/workflow.md) 建立人物表、镜头表和状态交接。调用 [模板](assets/templates.md)，按需要参考 [示例](references/examples.md)。
 5. 按需加载 [自拍与微动作](references/library/selfie.md)、[真人质感](references/library/realism.md)、[48 项运镜](references/library/camera.md)、[冲突处理与设备槽位](references/library/adaptation.md)。妆容、服装、年龄、身份、地点、设备型号与画质档位均按当前任务自定义，素材不建立全局固定人设。
+6. 按需读取 [六种灯光与照明比较](references/library/lighting.md)、[四组设备成像参考](references/library/gear.md)、[十种构图与环境叙事](references/library/composition.md)。只改光线的比较、参考首帧继续与新场景创作应分别处理。
 
 ## 导演原则
 - 用户剧情与实际图片优先于模板。新增角色、服装、对白和道具都标记为建议；不把示例人物写进用户的既有设定。
@@ -31,6 +32,8 @@ description: 根据任意场景需求，通过要素追问和关键词素材检�
 - 分清画内可闻音乐、现场声音与观众独享配乐。对白逐字保留；指定说话人、语气、节奏和停口状态，禁止默认添加旁白。
 - 自然感、手机美颜与电影质感按需选用，不能把它们的全部特征叠加。微动作通常只选 1–3 个与剧情相关的变化，不机械添加眨眼、歪头、撩发。
 - 单镜头内部的推进、回落、视线变化属于动作阶段；只有发生剪辑或明确切换镜头才新增 Shot。素材中的机位、运镜、视角、成像效果应分类组合。
+
+- 素材中的静帧不能替代视频动作时间线；设备名、灯光情绪、焦距、画幅和渲染词均为可选内容参考，不是新增 H3 官方字段或效果保证。
 
 ## 模式输出
 文生/首帧/首尾帧/尾帧采用三个命名段：integrated_multimodal_description、overall_soundscape、non_diegetic_music。有图像帧锚定时，还须按官方基础指南在最前面加入该模式的图像对齐首行；不得只输出三段便声称格式完整。读取 h3-rules.md 并核验选定模式的精确语法。这是提示词文档组织，不是 API 请求体。

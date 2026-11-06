@@ -10,6 +10,8 @@ A reusable, instruction-only skill for MiniMax Hailuo H3 video prompt writing.
 - 通用场景创作：校园、街头、室内、人物互动等，示例不会限制题材。
 - 按需补问：人物、情绪、动作、镜头、时长、声音等，只问影响结果的缺项。
 - 48 项摄影方法：推拉、摇镜、跟拍、升降、环绕、POV、焦点转移及风格化效果。
+- 灯光与成像参考：6种灯光情绪、只改照明的比较流程，以及4组相机镜头参考。
+- 空间与群像：10种构图方法，支持人物主次、前后景叙事与室内外层次。
 - 自然人物细节：按景别选择皮肤肌理、微动作、重心、材质和光线关系。
 - 连续剧情：记录角色、道具握持、视线、站位及片段末态。
 - 可扩充素材库：关键词检索、适用条件、来源和证据等级。
@@ -38,7 +40,11 @@ A reusable, instruction-only skill for MiniMax Hailuo H3 video prompt writing.
 | [references/evidence.md](references/evidence.md) | 官方来源、经验与边界 |
 | [references/workflow.md](references/workflow.md) | 内部结构与验证清单 |
 | [references/library-index.md](references/library-index.md) | 素材关键词索引 |
-| references/library/ | 运镜、真人质感、自拍和微动作素材 |
+| references/library/ | 运镜、真人质感、自拍、微动作、灯光、设备与构图素材 |
+| [references/library/lighting.md](references/library/lighting.md) | 六种灯光情绪与照明比较 |
+| [references/library/gear.md](references/library/gear.md) | 四组设备参考及厂商基础事实 |
+| [references/library/composition.md](references/library/composition.md) | 十种构图与环境叙事方法 |
+| [CHANGELOG.md](CHANGELOG.md) | 素材与规则更新记录 |
 | [assets/templates.md](assets/templates.md) | 可编辑提示词模板 |
 | [PUBLISH.md](PUBLISH.md) | 仓库发布与许可证选择说明 |
 

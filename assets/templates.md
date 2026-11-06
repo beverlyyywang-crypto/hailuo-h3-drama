@@ -12,6 +12,9 @@
 声音：{对白/背景人声/非语言声音/环境声/画外音乐，分别确定}
 质感：{电影写实/自然手机/轻美颜/低照度/其他；不继承素材默认}
 设备：{可选相机与镜头型号，仅在用户指定或有依据时填写}
+光线：{相对方向、软硬、冷暖、主辅关系、背景亮度；只改照明时列出其他不变量}
+构图：{主体数量、主次、前中后景、视线和遮挡、关键焦点、可用画幅}
+成像目标：{具体的颗粒/高光/散景/眩光；设备名与效果说明分开}
 运镜：{机位、主体运动、相机路径、起止构图、切镜或连续阶段}
 素材参考：{匹配条目 ID、采用部分和必要改写}
 必须保留/允许变化：{分别列明}
@@ -53,3 +56,9 @@ From the supplied first-frame pose, {subject} shifts weight onto {support}, move
 内部构图记录：{机位/视角} + {景别/焦点目标} + {主运镜} + {幅度和速度（有意义时）} + {人物动作路径} + {微动作（可选）} + {质感档位} + {声景范围} + {稳定末态}。这不是新增 H3 字段。
 
 无对白时删掉 Speaker 设定、S 编号与 d 标签；明确保留的呼吸和环境音写入声音描述。无字幕、无 UI 或无标识仅在当前任务要求时应用。
+
+## 灯光与设备的组装句型
+照明：{main source position, softness and warmth}, with {fill and background relationship}, preserving {required facial and material detail}.
+设备参考：Use {optional camera and lens reference} as an image-making reference, emphasizing {specific visible effects that fit the scene}.
+群像：Place {primary subject} at {position and depth}, with {secondary subjects} at {distinct positions}, keeping {key face/action} readable through {foreground framing}.
+这些句型写入所选模式的正文相应位置，不另创 lighting、camera_model、emotion 等 H3 API 字段。静帧案例转视频后必须补足动作、时间、声音和末态。

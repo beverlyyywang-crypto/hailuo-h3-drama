@@ -23,4 +23,17 @@
 | CAM-H01–H13 | 特殊手法 | 荷兰角、翻滚、子弹时间、焦点转移、一镜到底、慢门、抽离、穿物、电梯、门缝、俯冲、推近锁定、螺旋推进 | [camera.md H类](library/camera.md) | 同批次，13 项 |
 | CONFIG-01 | 适配配置 | 无人声、无对白、无BGM、画质冲突、相机型号、镜头型号 | [adaptation.md](library/adaptation.md) | 用户素材冲突处理与本技能槽位 |
 
-原始材料的中性摘录、剥离项及修订原因见 [批次记录](library/batch-20261106-01.md)。尚无具体相机/镜头型号素材，不虚构已收录设备。
+| RELIGHT-01 | 只改照明 | 保持人物表情构图、灯光对比、只调光、重打光 | [lighting.md](library/lighting.md) | U20261106-02，比较模式 |
+| LIGHT-02–LIGHT-07 | 六种灯光情绪 | 梦幻、暖逆光、神秘、单侧硬光、温暖、暖柔光、主角、轮廓光、孤独、局部顶光、阴森、低位硬光 | [lighting.md](library/lighting.md) | 同批次，照明方法而非情绪保证 |
+| GEAR-01 | 胶片参考 | ARRICAM LT、Cooke S4/i、50mm、500T、5219、胶片颗粒、柔和亮部 | [gear.md](library/gear.md) | 素材期望＋厂商基础事实 |
+| GEAR-02 | 数字电影参考 | SONY VENICE 2、ZEISS Supreme Prime、非Radiance、自然人像、清楚不过锐 | [gear.md](library/gear.md) | 不承诺固定肤色或虚化 |
+| GEAR-03 | 变形镜头参考 | RED V-RAPTOR、Proteus、35mm T2、2X、Blue、横向眩光、竖椭圆散景 | [gear.md](library/gear.md) | S35与机身版本适配另查 |
+| GEAR-04 | 球面镜头参考 | RED V-RAPTOR、Argus、35mm T1 FF Cine、RF、灯串、人像 | [gear.md](library/gear.md) | 型号可选，效果需具体描述 |
+| COMPOSE-01 | 单人关系 | 回眸、画外同伴、单人近景、前景道具、85mm | [composition.md](library/composition.md) | 静帧转视频须补过程 |
+| COMPOSE-02–03 | 多人主次 | 三人、四人、错位站位、焦点分层、群像、半背身框景 | [composition.md](library/composition.md) | 人数、身份、造型自定义 |
+| COMPOSE-04 | 前后景叙事 | 树上视角、高位俯拍、前景动物、观察者、下方活动、100mm | [composition.md](library/composition.md) | 观察关系与主体支撑 |
+| COMPOSE-05–07 | 主体强调 | 低机位紧近景、斜向前景、舞者居中、曲线布料、中轴入场、台阶、观看者 | [composition.md](library/composition.md) | 摄影组织，不继承战争或宫廷设定 |
+| COMPOSE-08–10 | 大空间叙事 | 背影前景、纵深队列、巨大建筑、中轴对称、尺度、室内外、框中框、逆光剪影 | [composition.md](library/composition.md) | 画幅、曝光与关键内容兼容 |
+| LOOK-02 | 风格选择 | 真人电影、胶片、CG、UE5、数字绘景、PBR、体积光、空气透视 | [composition.md](library/composition.md) | 风格描述，不宣称实际渲染流程 |
+
+第一批材料的摘录与修订见 [批次01](library/batch-20261106-01.md)；第二批20图的来源、重复与证据见 [批次02](library/batch-20261106-02.md)。设备名已收录，未指定版本或未完整核验的事实仍须注明，不推断原始EXIF。
